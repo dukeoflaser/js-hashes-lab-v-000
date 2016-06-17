@@ -18,8 +18,7 @@ function updateIngredient(recipe, ingredient, amount){
 
 function readRecipe(recipe){
   for(var ingredient in recipe){
-    var amount = recipe[ingredient]
-    // debugger;
+    var amount = recipe[ingredient];
     console.log(`this recipe calls for ${amount} of ${ingredient}`);
   }
 }
